@@ -9,12 +9,7 @@ package Entidades.Juego;
  */
 public interface JuegoIT {
 
-    public void start();
-
-    public void turnos();
+   
 
     public void tablefinal();
-
-    public void end();
-
-}
+ }

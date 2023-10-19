@@ -27,21 +27,8 @@ public abstract class Juego implements JuegoIT {
         this.jugador1 = new JugadorAzul();
         this.jugador2 = new JugadorRojo();
     }
-  
-    
-    
-   
-    @Override
-    public void start() {
-    pantallaInicio.setVisible(true);
-    
-    }
-   
-    @Override
-    public void end() {
 
-        pantallaInicio.dispose();
-        pantallaJuego.dispose();
+    public void setPantallaJuego(PantallaJuego pantallaJuego) {
+        this.pantallaJuego = pantallaJuego;
     }
-
 }
